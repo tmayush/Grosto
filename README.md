@@ -6,19 +6,19 @@ _A website to purchase groceries_
 
 ![Homepage](./docs/Screenshots/homepage_1.png)
 
-<p style="text-align:center;"><em><strong>Homepage</strong></em></p>
+<p align=center><em><strong>Homepage</strong></em></p>
 
 ![Homepage](./docs/Screenshots/homepage_2.png)
 
-<p style="text-align:center;"><em><strong>Homepage</strong></em></p>
+<p align=center><em><strong>Homepage</strong></em></p>
 
 ![Categories](./docs/Screenshots/categories_1.png)
 
-<p style="text-align:center;"><em><strong>Categories</strong></em></p>
+<p align=center><em><strong>Categories</strong></em></p>
 
 ![Cart](./docs/Screenshots/cart_1.png)
 
-<p style="text-align:center;"><em><strong>Cart</strong></em></p>
+<p align=center><em><strong>Cart</strong></em></p>
 
 # Tech/Framework used
 
