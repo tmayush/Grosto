@@ -1,24 +1,24 @@
 # Grosto - Online Grocery Store
 
-<p style="text-align: center; font-style: italic">A website to purchase groceries</p>
+_A website to purchase groceries_
 
 # Screenshots
 
 ![Homepage](./docs/Screenshots/homepage_1.png)
 
-<p style="text-align: center; font-style: italic">Homepage</p>
+<p style="text-align:center;"><em><strong>Homepage</strong></em></p>
 
 ![Homepage](./docs/Screenshots/homepage_2.png)
 
-<p style="text-align: center; font-style: italic">Homepage</p>
+<p style="text-align:center;"><em><strong>Homepage</strong></em></p>
 
 ![Categories](./docs/Screenshots/categories_1.png)
 
-<p style="text-align: center; font-style: italic">Categories</p>
+<p style="text-align:center;"><em><strong>Categories</strong></em></p>
 
 ![Cart](./docs/Screenshots/cart_1.png)
 
-<p style="text-align: center; font-style: italic">Cart</p>
+<p style="text-align:center;"><em><strong>Cart</strong></em></p>
 
 # Tech/Framework used
 
