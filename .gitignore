@@ -3,7 +3,6 @@
 
 # Ignore Personal Docs
 *-ignore*
-/docs
 /metadata
 
 # Logs
