@@ -1,3 +1,11 @@
+# vs code
+.vscode
+
+# Ignore Personal Docs
+*-ignore*
+/docs
+/metadata
+
 # Logs
 logs
 *.log
