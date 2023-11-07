@@ -44,3 +44,28 @@ plt.title('Simple Line Plot')
 
 # Display the plot
 plt.show()
+
+
+
+
+import pymongo
+# Establish a connection to MongoDB (default connection to localhost)
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+# Create or use an existing database
+db = client["mydatabase"]
+# Create a collection or use an existing one
+collection = db["mycollection"]
+# Sample data to insert
+sample_data = [
+ {"name": "John", "age": 30, "city": "New York"},
+ {"name": "Alice", "age": 25, "city": "San Francisco"},
+ {"name": "Bob", "age": 35, "city": "Los Angeles"}
+]
+# Insert the sample data into the collection
+collection.insert_many(sample_data)
+# Retrieve and print all data in the collection
+cursor = collection.find({})
+for document in cursor:
+ print(document)
+# Close the MongoDB connection
+client.close() 
