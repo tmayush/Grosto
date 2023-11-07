@@ -1,0 +1,46 @@
+1) Numpy
+import numpy as np
+
+# Create a NumPy array
+my_array = np.array([1, 2, 3, 4, 5])
+
+# Display the array
+print(my_array)
+
+# Perform basic operations on the array
+mean = np.mean(my_array)
+sum_elements = np.sum(my_array)
+max_value = np.max(my_array)
+
+print("\nMean:", mean)
+print("Sum of Elements:", sum_elements)
+print("Maximum Value:", max_value)
+
+2) Pandas
+import pandas as pd
+
+# Create a pandas DataFrame
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35]}
+df = pd.DataFrame(data)
+young_people = df[df['Age'] < 30]
+print("\nYoung People:")
+print(young_people)
+
+3) Matlplotlib
+import matplotlib.pyplot as plt
+
+# Data for the plot
+x = [1, 2, 3, 4, 5]
+y = [10, 15, 13, 18, 20]
+
+# Create a line plot
+plt.plot(x, y)
+
+# Add labels and a title
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Simple Line Plot')
+
+# Display the plot
+plt.show()
